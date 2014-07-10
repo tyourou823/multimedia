@@ -69,7 +69,9 @@ def pic_rgb(s):
 #	return array, arraypic
 	return arraypic
 
-f = open('test.txt','w')
+#start program here -------------------------------------------------------------------
+
+#f = open('test.txt','w')
 #test.txt will update everytimes when analyze the picture.
 image = Image.open('./samples/j')
 #image=image.convert('RGBA')
@@ -85,8 +87,6 @@ diff_list = [0,0,0,0,0,0,0,0,0,0]
 color_pat = [0,0,0,0,0,0,0,0,0,0]
 #print base
 #base = np.array([r,g,b])
-
-#count = 0
 
 for s in px:
 	s = str(s)
